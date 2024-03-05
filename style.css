@@ -1,0 +1,184 @@
+:root{
+    --colorprincipal: #F5F2EB;
+    --colorboton: #AED6B3;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F5F2EB;
+}
+
+/* TODO EL HEADER */
+
+div.bothed{
+    gap: 15px;
+}
+.header{
+    display: flex;
+    padding: 20px 70px;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+header.bi{
+    display: flex;
+    width: 19.12px;
+    height: 19.12px;
+    align-items: center;
+}
+
+header button i{
+    
+    background-color: var(--colorboton);
+}
+button.request{
+    border-radius: 4px;
+}
+/* TODO EL FORMULARIO */
+
+div.divpadre{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 400px;
+    justify-content: space-between;
+    background-color: var(--colorprincipal);
+
+}
+
+.titulo{
+    background-color: white;
+    font-size: 40px;
+    font-weight: 700px;
+}
+.subtitulo{
+    background-color: white;
+    font-weight: 400px;
+    font-size: 22px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px ;
+    gap: 30px;
+    background-color: white;    
+    border-radius: 30px;
+   
+
+}
+b{
+    background-color: white;
+}
+input{
+    padding: 10px;
+}
+
+button.sign-in{
+    border: none;
+}
+button.request{
+    background-color: var(--colorboton);
+    border: none;
+    width: 164px;
+    height: 45px;
+    
+}
+
+
+.caja-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 648px;
+    border-radius: 30px;
+}
+input{
+    width: 376px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+button.entrar{
+    width: 376px;
+    height: 48px;
+    padding: 16px 30px;
+    background-color: var(--colorboton);
+    border: none;
+    border-radius: 8px;
+}
+form h4{
+    font-size: 12px;
+}
+
+div.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 376px;
+    height: 40px;
+    background-color: white;
+}
+
+.google{
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: 1px;
+    border: solid 1px;
+    border-radius: 30px;
+}
+.apple{
+    width: 120px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.facebook{
+    
+    width: 120px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 30px;
+    
+}
+button i{
+    width: 17.17px;
+    height: 17.17px;
+}
+h4{
+    background-color: white;
+}
+h4 i{
+    background-color: white;
+    
+}
+h5.final{
+    font-size: 13px;
+    background-color: white;
+}
+
+
+/*     display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 376px;
+    height: 40px; */
+
+/* LA IMAGEN DEL MUÑECO */
+
+
+
+.muneco{
+    display: flex;
+    align-items: center;
+    width: 598.8px;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+}
